@@ -799,6 +799,12 @@ html {
   flex-wrap: wrap;
 }
 
+.wander-footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .wander-footer-col h4 {
   color: var(--white);
   font-size: 1.05rem;
