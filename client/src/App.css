@@ -1,4 +1,4 @@
-                                                                                                      /* Google Font Import */
+/* Google Font Import */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 * {
@@ -22,12 +22,12 @@ a {
 
 a:hover {
   color: #757de8;
-}                                                                                                                                                  /* Accessibility: Keyboard Focus Indicators */
+} /* Accessibility: Keyboard Focus Indicators */
 *:focus-visible {
   outline: 3px solid #3f51b5;
   outline-offset: 2px;
   border-radius: 4px;
-} 
+}
 
 /* Animation for page transitions */
 .fade-enter {
@@ -132,7 +132,7 @@ a:hover {
 
 .p-4 {
   padding: 16px;
-}                                                                                                                                                    /* Glassmorphism Utility Classes */
+} /* Glassmorphism Utility Classes */
 .glass {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
@@ -149,7 +149,7 @@ a:hover {
 .glass-dark {
   background: rgba(0, 0, 0, 0.2);
   color: white;
-} 
+}
 
 /* Card hover effect */
 /* Enhanced Card Hover Effect */
@@ -163,7 +163,7 @@ a:hover {
 .hover-card:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-} 
+}
 
 .App {
   text-align: center;
@@ -202,7 +202,7 @@ a:hover {
   to {
     transform: rotate(360deg);
   }
-}                                                                                                                                                     /* Accessibility: Respect Reduced Motion Preferences */
+} /* Accessibility: Respect Reduced Motion Preferences */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -212,4 +212,4 @@ a:hover {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}                                                                                                             
+}
